@@ -36,10 +36,7 @@ python3 lantern.py watch <url> [--timeout SECONDS] [--interval SECONDS] [--color
 
 `--interval SECONDS` sets seconds between checks. It overrides `interval` in `lantern.toml`. The default is 30 seconds.
 
-The other flags work the same as in `check`.
-```
-
-The output shows one line per check.
+The other flags work the same as in `check`. The output shows one line per check.
 
 ```text
 up 200
