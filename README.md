@@ -1,6 +1,6 @@
 # Lantern docs
 
-Guides for [lantern](https://github.com/spacechurro/lantern), a command that checks whether a URL is up.
+Guides for [lantern](https://github.com/spacechurro/lantern), a command that checks whether a URL is up. It supports `check` once or `watch` until interrupted.
 
 - [Getting started](getting-started.md)
 - [Commands](cli.md)

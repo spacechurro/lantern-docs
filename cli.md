@@ -23,3 +23,26 @@ up 200
 down 503
 down no response
 ```
+
+## watch
+
+Recheck a URL until you press Ctrl+C.
+
+```bash
+python3 lantern.py watch <url> [--timeout SECONDS] [--interval SECONDS] [--color | --no-color]
+```
+
+`url` is the address to request, including `https://`. Lantern follows redirects and prints the final status on each check. A down result or error does not stop the loop. Ctrl+C exits with code 0.
+
+`--interval SECONDS` sets seconds between checks. It overrides `interval` in `lantern.toml`. The default is 30 seconds.
+
+The other flags work the same as in `check`.
+```
+
+The output shows one line per check.
+
+```text
+up 200
+down 503
+down no response
+```
