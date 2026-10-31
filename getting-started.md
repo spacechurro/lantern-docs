@@ -8,6 +8,12 @@ From a checkout of [lantern](https://github.com/spacechurro/lantern):
 python3 lantern.py check https://example.com
 ```
 
+To recheck until you press Ctrl+C:
+
+```bash
+python3 lantern.py watch https://example.com
+```
+
 Lantern requests the URL and follows redirects. A final status from 200 through 399 prints `up` and that status, and the command exits 0.
 
 ```text
